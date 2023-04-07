@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.web.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane id="main-panel" fx:id="panel" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="549.0" prefWidth="584.0" stylesheets="@main.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.koolade446.mconsole.EulaController">
+   <children>
+      <CheckBox id="standard-check" fx:id="readUnderstoodCheck" layoutX="15.0" layoutY="497.0" mnemonicParsing="false" onAction="#checkboxToggled" text="I have read and understood the above eula." />
+      <Button id="standard-button" fx:id="disagreeButton" layoutX="503.0" layoutY="515.0" mnemonicParsing="false" onAction="#disagreePressed" text="Disagree" />
+      <Button id="locked-button" fx:id="agreeButton" layoutX="446.0" layoutY="516.0" mnemonicParsing="false" onAction="#agreePressed" text="Agree" />
+      <WebView fx:id="webPanel" layoutX="15.0" layoutY="44.0" prefHeight="438.0" prefWidth="553.0" />
+      <Label id="standard-text" layoutX="15.0" layoutY="14.0" prefHeight="27.0" prefWidth="553.0" text="You must agree to the Minecraft eula to continue" />
+   </children>
+</Pane>

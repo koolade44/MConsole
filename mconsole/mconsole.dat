@@ -1,0 +1,7 @@
+# DO NOT MODIFY THESE VALUES IF YOU DO NOT KNOW WHAT YOU ARE DOING
+failure-threshold-time=120
+ram-amount=2048
+always-repair=false
+verification-interval=300
+is-forge=false
+ram-type=M

@@ -1,0 +1,4 @@
+path=$current
+save-path=true
+eula-agreement=false
+eula-auto-agree=true

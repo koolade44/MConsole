@@ -1,0 +1,161 @@
+#main-panel {
+    -fx-background-color: #2d2e2e;
+}
+
+#standard-inset {
+    -fx-control-inner-background: #242423;
+    -fx-text-fill: #e3e2e1;
+    -fx-border-color: #636363;
+    -fx-background-color: #2d2e2e;
+}
+
+#standard-text {
+    -fx-text-fill: #e3e2e1;
+    -fx-background-color: #2d2e2e;
+}
+
+#clickable-text {
+    -fx-text-fill: #e3e2e1;
+    -fx-background-color: #2d2e2e;
+}
+
+#clickable-text:hover {
+    -fx-cursor: hand;
+}
+
+#clickable-text:pressed {
+    -fx-border-width: 2px;
+    -fx-border-color: rgb(0, 108, 128);
+}
+
+#standard-button {
+    -fx-background-color: #242423;
+    -fx-text-fill: #e3e2e1;
+    -fx-background-radius: 5px;
+    -fx-border-radius: 5px;
+    -fx-border-color: #636363;
+    -fx-border-width: 1px;
+    -fx-cursor: hand;
+}
+
+#standard-button:pressed {
+    -fx-border-width: 2px;
+    -fx-border-color: rgb(0, 108, 128);
+}
+
+#locked-button {
+    -fx-background-color: #242423;
+    -fx-text-fill: #808080;
+    -fx-background-radius: 5px;
+    -fx-border-radius: 5px;
+    -fx-border-color: #3b3b3b;
+    -fx-border-width: 1px;
+    -fx-cursor: not-allowed;
+
+}
+
+#standard-check {
+    -fx-text-fill: #e3e2e1;
+}
+
+#standard-check .box {
+    -fx-background-color: rgba(255, 255, 255, 0);
+    -fx-background-radius: 4px;
+    -fx-border-radius: 4px;
+    -fx-border-color: #636363;
+    -fx-border-width: 1px;
+    -fx-cursor: hand;
+}
+
+#standard-check:selected .mark {
+    -fx-background-color: #e3e2e1;
+}
+
+#standard-check:pressed .box {
+    -fx-border-width: 2px;
+    -fx-border-color: rgb(0, 108, 128);
+}
+
+#standard-cbox {
+    -fx-background-color: #2d2e2e;
+    -fx-border-color: #636363;
+    -fx-border-radius: 5px;
+    -fx-cursor: hand;
+    -fx-border-width: 1px;
+}
+
+#standard-cbox .cell {
+    -fx-text-fill: #e3e2e1;
+    -fx-background-color: #2d2e2e;
+}
+
+#standard-cbox .list-cell {
+    -fx-text-fill: #e3e2e1;
+    -fx-background-color: #2d2e2e;
+    -fx-cursor: hand;
+}
+
+#standard-cbox .list-view .list-cell:hover {
+    -fx-background-color: rgb(0, 108, 128);
+}
+
+
+#server-ctrl-btn {
+    -fx-background-color: rgba(255, 255, 255, 0);
+    -fx-background-radius: 4px;
+    -fx-border-radius: 4px;
+    -fx-border-color: #636363;
+    -fx-border-width: 1px;
+    -fx-cursor: hand;
+}
+
+#server-ctrl-btn:pressed {
+    -fx-border-width: 2px;
+    -fx-border-color: rgb(0, 108, 128);
+}
+
+#standard-text-field {
+    -fx-background-color: #242423;
+    -fx-border-color: #636363;
+    -fx-text-fill: #e3e2e1
+}
+
+/**Costumization of The Bar where the buttons are located**/
+.dialog-pane > .button-bar > .container {
+    -fx-background-color: #2d2e2e;
+}
+
+.dialog-pane > .content.label {
+    -fx-text-fill: #e3e2e1;
+    -fx-background-color: #2d2e2e
+}
+
+.dialog-pane:header .header-panel {
+    -fx-background-color: #2d2e2e;
+}
+
+.dialog-pane:header .header-panel .label{
+    -fx-text-fill: #e3e2e1;
+    -fx-background-color: #2d2e2e
+}
+
+
+/**Costumization of Buttons**/
+.dialog-pane .button{
+    -fx-background-color: #242423;
+    -fx-text-fill: #e3e2e1;
+    -fx-background-radius: 5px;
+    -fx-border-radius: 5px;
+    -fx-border-color: #636363;
+    -fx-border-width: 1px;
+    -fx-cursor: hand;
+}
+
+.dialog-pane .button:hover{
+    -fx-cursor: hand;
+}
+
+.dialog-pane .button:pressed {
+    -fx-border-width: 2px;
+    -fx-border-color: rgb(0, 108, 128);
+}
